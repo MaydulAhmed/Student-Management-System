@@ -1,0 +1,55 @@
+body {
+	font-family: 'Arial' , sans-serif;
+	
+	background: url(./img/Ausbildung.jpg);
+    background-size: cover;
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #e20074;
+	padding: 15px;
+}
+
+header {
+	background-color: #408f9a;
+	height: 100px;
+	padding: 4px;
+}
+
+header h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	color:  #babd5a ;
+	line-height: 50px;
+}
+
+.main_menu {
+	padding: 5px 0 5px 0;
+	text-align: center;
+	line-height: 32px;
+	background-color:   #70abb3 ;
+}
+
+ul.main_menu {
+	margin-top: 15px;	
+}
+
+.main_menu li {
+	display: inline;
+	padding: 0 10px 0 10px;
+	font-size: 20px;
+}
+
+.main_menu a {
+	text-decoration: none;
+	color:#dadada;
+	padding: 8px;
+	font-variant: small-caps;	
+}
+
+.main_menu a:hover {
+	color: #e20074;
+}
